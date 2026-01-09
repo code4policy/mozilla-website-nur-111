@@ -10,17 +10,28 @@
 </head>
 <body>
     <h1>What to do when your apartment heater stops working</h1>
-    <p>Based on a true story as of January 8, 2026</p>
+    <h2>Based on a true story as of January 8, 2026</h2>
     <img src="firefox-icon.png" alt="A random fox picture" />
     <p>Sadly, this fox has nothing to do with staying warm in a cold unit</p>
     <p>But you can always follow the following tips: </p>
 
     <ul> 
         <li>Stay in bed all day and skip J-term class (hypothetically speaking)</li>
-        <li>Alternatively, stay in the HKS building until 11 pm</li>
-        <li>Borrow my roommate's extra heater -- and inevitably trip the electric circuit</li>
+        <li>Or stay in the HKS building until 11 pm</li>
+        <li>Borrow your roommate's extra heater -- and inevitably trip the electric circuit</li>
+    </ul>
 
-    <p>For more serious tips, visit <a href="https://www.apartmenttherapy.com/no-thermostat-apartment-heat-tips-36868741">Apartment Heat Tips Without a Thermostat</a> and stay warm!<p>
+    <p>For serious tips, visit <a href="https://www.apartmenttherapy.com/no-thermostat-apartment-heat-tips-36868741">Apartment Heat Tips Without a Thermostat</a></p>
+
+    <button id="warmBtn">Click me for an important message</button>
+<p id="message"></p>
+
+<script>
+  document.getElementById("warmBtn").addEventListener("click", () => {
+    document.getElementById("message").textContent = "Stay warm!";
+  });
+</script>
+
 
 </body>
 </html>

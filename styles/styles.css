@@ -43,3 +43,6 @@ button {
   display: block;
   margin: 20px auto;
 }
+p {
+  color: red;
+}
